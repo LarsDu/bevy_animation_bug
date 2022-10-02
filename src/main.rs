@@ -2,6 +2,7 @@ use bevy::prelude::*;
 use bevy::{input::keyboard::*, prelude::*};
 use std::f32::consts::PI;
 
+#[derive(Resource)]
 pub struct Animations(pub Vec<Handle<AnimationClip>>);
 
 pub const STAND_FORWARD: usize = 5;
